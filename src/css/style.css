@@ -1,2 +1,37 @@
 body {
   font-family: 'Roboto', sans-serif; }
+
+.container {
+  max-width: 1200px;
+  width: 85%;
+  margin: auto; }
+
+.header {
+  background: #ffffff;
+  height: 50px; }
+  .header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__logo-img {
+    width: 345px; }
+  .header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__link {
+    display: block;
+    padding: 6px 8px;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000; }
+    .header__link:not(:last-child) {
+      margin-right: 40px; }
+    .header__link:hover {
+      background-color: #EFF7F9; }
+  .header__phone {
+    font-weight: normal;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none; }
