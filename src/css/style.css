@@ -6,6 +6,50 @@ body {
   width: 85%;
   margin: auto; }
 
+.form {
+  max-width: 345px;
+  display: flex;
+  flex-direction: column; }
+  .form__title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #014D83; }
+  .form__input {
+    padding: 7px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #A9C3D5; }
+    .form__input::-webkit-input-placeholder {
+      color: #A9C3D5; }
+    .form__input::-moz-placeholder {
+      color: #A9C3D5; }
+    .form__input:-ms-input-placeholder {
+      color: #A9C3D5; }
+    .form__input::-ms-input-placeholder {
+      color: #A9C3D5; }
+    .form__input::placeholder {
+      color: #A9C3D5; }
+  .form__button {
+    margin-top: 35px;
+    padding: 18px 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #014D83;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px; }
+    .form__button:hover {
+      cursor: pointer;
+      color: #014D83;
+      background-color: #A9C3D5; }
+
 .header {
   background: #ffffff;
   height: 50px; }
@@ -35,3 +79,38 @@ body {
     font-size: 18px;
     color: #000000;
     text-decoration: none; }
+
+.hero {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  background-color: #e5e5e5; }
+  .hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .hero__text-block {
+    width: 49%; }
+  .hero__title {
+    margin: 0 0 20px 0;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    color: #014D83; }
+    .hero__title_dark {
+      text-transform: uppercase;
+      color: #000000;
+      font-weight: bold; }
+  .hero__text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #014D83; }
+  .hero__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 514px;
+    max-height: 433px; }
+  .hero__img {
+    width: 100%;
+    height: 100%; }

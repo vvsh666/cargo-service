@@ -1,0 +1,36 @@
+.form
+  max-width: 345px
+  display: flex
+  flex-direction: column
+  &__title
+    margin-top: 0
+    margin-bottom: 15px
+    font-weight: 500
+    font-size: 18px
+    line-height: 21px
+    color: $primary 
+  &__input
+    padding: 7px 0
+    font-weight: 300
+    font-size: 18px
+    line-height: 21px
+    background: transparent
+    border: none
+    border-bottom: 1px solid $primary-light
+    &::placeholder
+      color: $primary-light
+  &__button
+    margin-top: 35px
+    padding: 18px 0
+    text-align: center
+    color: $light
+    background-color: $primary
+    border: none
+    font-weight: bold
+    font-size: 18px
+    line-height: 21px
+    &:hover
+      cursor: pointer
+      color: $primary
+      background-color: $primary-light
+
